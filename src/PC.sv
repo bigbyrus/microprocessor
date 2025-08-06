@@ -17,7 +17,7 @@ module PC #(parameter D=8)(
   input  logic            reset,
                           clk,
                           reljump_en,
-                          enable,         // Rename to "start" for clarity
+                          enable,
   input  logic [D-1:0]    target,
   output logic [D-1:0]    prog_ctr
 );
